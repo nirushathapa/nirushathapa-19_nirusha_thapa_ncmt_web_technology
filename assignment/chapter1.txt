@@ -1,0 +1,123 @@
+CHAPTER 1: AN OVERVIEW OF THE INTERNET AND THE WEB
+Group A: Short Questions (2 Marks)
+1. Define the term ”Protocol” in the context of the Internet.
+Answer: A protocol in the context of the Intenet is a set of rules or standards that define how data is trasmitted, received, and interpreted between devieces over a network. Protocols ensure that communication happens in an orderly, predictable, and error-free manner. Examples: HTTP,SMTP,TCP/IP.
+
+2. What is the primary difference between a Web Browser and a Search Engine?
+Answer: A web browser is a software application used to access and display web pages on the inteenet.Examples: Google Chrome, Firefox, Safari
+        A Search engine is a web-based tool that helps users find information on the Internet by indexing web pages. Examples: Google,Bing,Yahoo
+
+3. Define the World Wide Web (WWW).
+Answer: The world wide web(WWW) is a global system of interconnected hypertext documents and multimedia content that is accessed via the Internet. It uses HTTP/HTTPs protocols and is navigated through web browsers using URLS.The WWW was invented by Tim Berners-Lee in 1989 and is built on technologies such as HTML, CSS and JavaScript.
+
+4. Distinguish between a static web page and a dynamic web page.
+Answer: A static web page is a fixed page whose content doesnot change unless manually edited by a developer. It is delivered exactly as stored, usually written in HTML and CSS.
+        A dynamic web page is generated in real-time based on user interaction, input, or database queries. It suses server-side languages like PHP, Python or JavaScript frameworks to display changing content.
+
+
+Group B: Long Questions (4 Marks)
+5. Explain the client-server architecture of the web with a neat diagram.
+Answer: Client–server architecture is a computing model in which tasks are divided between clients and servers.
+        A client is a device or application (usually a web browser) that requests information.
+        A server is a powerful computer that stores web pages, processes requests, and sends responses to clients.
+How it works:
+        The user enters a website URL in the web browser.
+        The browser (client) sends an HTTP request to the web server.
+        The server processes the request.
+        The server sends back an HTTP response (HTML, CSS, images, etc.).
+        The browser displays the web page to the user.
+                 Client (Browser)  →  Request (HTTP)  →  Server (Host)
+                Client (Browser)  ←  Response (HTML) ←  Server (Host)
+Advantages of Client–Server Architecture
+    Centralized data management
+    Better security
+    Easy maintenance and updates
+    Efficient resource usage
+
+6. Describe the functions of the following Internet services: Email, FTP, and VoIP.
+Answer: The Functions of Internet Services are:
+1. Email (Electronic Mail)
+Email is an Internet service used to send and receive electronic messages.
+Functions:
+    Allows fast communication between users worldwide
+    Supports sending text messages, images, documents, and other attachments
+    Provides features such as inbox, outbox, CC, BCC, and spam filtering
+    Enables both personal and professional communication
+
+2. FTP (File Transfer Protocol)
+FTP is an Internet service used for transferring files between a client and a server.
+Functions:
+    Uploads files from a local computer to a remote server
+    Downloads files from a server to a client computer
+    Helps in managing website files on a web server
+    Supports authenticated and secure file transfer (using FTPS/SFTP)
+
+3. VoIP (Voice over Internet Protocol)
+VoIP is an Internet service that allows voice communication over the Internet.
+Functions:
+    Converts voice signals into digital data packets
+    Enables voice and video calls over the Internet
+    Reduces communication cost compared to traditional phone services
+    Supports features like call conferencing, call forwarding, and voicemail
+
+7. "The Internet is a network of networks.” Elaborate on this statement explaining how
+packet switching works.
+Answer:The Internet is called a network of networks because it is formed by connecting millions of smaller networks such as home networks, office networks, campus networks, and Internet Service Provider (ISP) networks. These different networks are interconnected using standard communication protocols like TCP/IP, allowing devices worldwide to communicate with each other.
+No single organization owns the entire Internet. Instead, many independent networks work together to form a global communication system.
+
+Packet Switching in the Internet
+The Internet uses a data transmission technique called packet switching.
+How Packet Switching Works:
+    1.When data is sent over the Internet, it is first divided into small units called packets.
+    2.Each packet contains:
+        Source address
+        Destination address
+        Sequence number
+        Part of the data
+    3.These packets travel independently through different paths across multiple networks.
+    4.Routers in the network decide the best available path for each packet.
+    5.At the destination, all packets are reassembled in correct order to form the original data.
+
+Group C: Scenario-Based Questions (5 Marks)
+8. A startup company wants to host a website that displays the same information to all
+visitors and requires very low maintenance costs. However, they are being advised to use
+a dynamic website. As a consultant, would you agree? Justify your answer.
+Answer:As a consultant, I would not agree with the advice to use a dynamic website.
+Since the startup wants to display the same information to all visitors and requires very low maintenance cost, a static website is the most suitable option.
+       A static website shows fixed content that is the same for every user.
+       It does not require a database or server-side scripting, which reduces development and maintenance costs.Static websites are faster, more secure, and easier to host.
+       They require minimal technical support and are ideal for small startups with limited resources.
+       On the other hand, a dynamic website is useful when content needs frequent updates, user interaction, or personalization, which is not required in this case.
+
+Therefore, for a startup needing a simple website with identical content for all users and low maintenance cost, a static website is the better and more cost-effective choice.
+
+9. A user types www.google.com into their browser, but the browser displays a ”Server Not
+Found” error, even though the internet connection is active. However, accessing the site
+via 142.250.190.46 works. Diagnose the problem and explain the underlying technology
+that failed.
+Answer:The problem is related to a DNS (Domain Name System) failure.
+Although the Internet connection is active, the browser shows “Server Not Found” when accessing www.google.com
+.However, the website loads successfully when accessed using the IP address 142.250.190.46. This indicates that the server is reachable, but the domain name is not being resolved to its IP address.
+Underlying Technology That Failed: DNS
+
+The Domain Name System (DNS) is responsible for translating human-readable domain names (such as www.google.com
+) into machine-readable IP addresses.
+How DNS Normally Works:
+    The user enters a domain name in the browser.
+    The browser sends a DNS request to a DNS server.
+    The DNS server resolves the domain name into an IP address.
+    The browser connects to the server using that IP address.
+In this case, the DNS server failed to resolve www.google.com, causing the browser to display the error message.
+
+10. A multinational corporation wants to share sensitive inventory data with specific suppliers
+but does not want this information available to the general public. Explain which network
+type (Intranet, Extranet, or Internet) they should implement and why.
+Answer:The corporation should implement an Extranet.
+  An Extranet is a private network that allows controlled access to specific external users, such as business partners, suppliers, or clients.
+  It is not available to the general public, unlike the Internet.
+The corporation can share sensitive inventory data securely with selected suppliers while keeping the information private from everyone else.
+Why not Intranet or Internet?
+Intranet: Only accessible to internal employees, so external suppliers cannot access the data.
+Internet: Publicly accessible, not secure for sharing sensitive information.
+
+By using an Extranet, the corporation ensures secure, selective sharing of confidential data with external partners while protecting it from unauthorized access.
