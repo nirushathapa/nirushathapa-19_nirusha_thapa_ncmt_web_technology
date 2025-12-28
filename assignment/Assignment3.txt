@@ -1,0 +1,26 @@
+CHAPTER 3: WEBSITE STRUCTURE DESIGN
+--------------------------------------------------------------------------------------------------------------------------
+
+Group A: Short Questions (2 Marks)
+
+1. Define Information Architecture (IA).
+Answer:
+2. What is a "Wireframe”?
+3. Explain the concept of ”Cognitive Friction” in web design.
+4. Why should URL slugs use hyphens instead of underscores?
+Group B: Long Questions (4 Marks)
+5. Compare and contrast Hierarchical (Tree) structure and Linear (Sequential) structure.
+Give an example of when to use each.
+6. Explain the ”Three-Click Rule” and its significance in User Experience (UX) design.
+7. ”Plan before you do.” Explain how tools like Card Sorting and Flowcharts help in planning
+a website’s structure.
+Group C: Scenario-Based Questions (5 Marks)
+8. You are designing a website for a University. It has hundreds of pages (Admissions,
+Departments, Alumni, News). Which structural model would you choose? Draw a rough
+diagram and justify your choice.
+9. Auser visits a website but leaves within 10 seconds because they cannot find the navigation
+menu, which is hidden behind a small icon on a desktop screen. Analyze this design failure
+using the ”KISS” (Keep It Simple) principle.
+10. An e-commerce website has a URL structure like www.shop.com/prod?id=55&cat=9. Ex
+plain why this is bad for both users and Search Engines (SEO), and propose a better
+structure using Page Slugs.
